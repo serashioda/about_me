@@ -1,12 +1,11 @@
 * {
-  color: violet;
+  color: purple;
+  background-color: tan;
 }
 
 body {
 	background-image: url("http://image.shutterstock.com/z/stock-vector--illustration-of-cute-cartoon-dogs-on-white-background-cute-akita-inu-shiba-inu-and-husky-can-be-399470293.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center
+	background-position: center center;
 	background-size: cover;
 }
 
@@ -15,6 +14,7 @@ img {
     width: 200px;
     border: 10px solid black;
     border-radius: 100px;
+    background-position: center center;
 }
 
 /*background: url('Your image URL') 100% no-repeat;

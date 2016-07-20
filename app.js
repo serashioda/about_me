@@ -38,14 +38,14 @@ if (isYes(answer3)) {
 
 var answer4 = prompt('Do you think Sera has 2 dogs of the same sex?');
 if (isYes(answer4)) {
-   alert('No, ' + userName + ', she like the variaty in personality!');
+   alert('No, ' + userName + ', she likes the variety in personality!');
 } else {
   alert('You\'re right, ' + userName + ', she has 1 boy and 1 girl!');
 }
 
 var answer5 = prompt('Do you think Sera also has cats?');
 if (isYes(answer4)) {
-   alert('No, ' + userName + ', she is very allergice to them!');
+   alert('No, ' + userName + ', she is very allergic to them!');
 } else {
   alert('You\'re right, ' + userName + '. Even thought she likes them, she can\'t, she has severe allergies to cats!');
 }
