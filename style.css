@@ -3,6 +3,13 @@
   background-color: tan;
 }
 
+h1 {
+  background-color: transparent;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-style: bold;
+  font-size: 20pt;
+}
+
 body {
 	background-image: url("http://image.shutterstock.com/z/stock-vector--illustration-of-cute-cartoon-dogs-on-white-background-cute-akita-inu-shiba-inu-and-husky-can-be-399470293.jpg");
 	background-position: center center;
@@ -20,9 +27,9 @@ img {
 #footer {
 	position: relative;
 	height: 100px;
-	background-color: #668284;
+	background-color: transparent;
 	clear: both;
-	font-size: 20px;
+	font-size: 15pt;
 	color: #ffffff;
 }
 
@@ -34,10 +41,10 @@ img {
 
 ol {
   font-style: italic;;
-  font-size: 14px;
+  font-size: 12pt;
 }
 
 ul {
   font-style: italic;;
-  font-size: 14px;
+  font-size: 14pt;
 }
