@@ -16,3 +16,28 @@ img {
     border-radius: 100px;
     background-position: center center;
 }
+
+#footer {
+	position: relative;
+	height: 100px;
+	background-color: #668284;
+	clear: both;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 5px;
+  font-style: bold;
+}
+
+ol {
+  font-style: italic;;
+  font-size: 14px;
+}
+
+ul {
+  font-style: italic;;
+  font-size: 14px;
+}
