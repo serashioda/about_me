@@ -115,9 +115,9 @@ while (i < 6) {
     alert ('That\'s not it, ' + userName + '. Try again!');
   }
   i++;
-if (i === 6) {
-  alert ('Crap, ' + userName + '! You\'ve run out of tries. Here are the cities my family is from: ' + myFamily.toString() + '.');
-}
+  if (i === 6) {
+    alert ('Crap, ' + userName + '! You\'ve run out of tries. Here are the cities my family is from: ' + myFamily.toString() + '.');
+  }
 }
 
 alert ('You got ' + correctAnswer + ' out of 7 questions correct. Thanks for playing, ' + userName + '! Better luck next time!!!');
