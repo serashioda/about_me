@@ -11,7 +11,7 @@ alert('Hey there, ' + userName + ', welcome! We are going to play a little game.
 //   aboutMe();
 //   isMyDogs();
 //   citiesLived();
-};
+// };
 
 // FIRST GAME WITH YES/NO QUESTIONS
 function aboutMe(){
