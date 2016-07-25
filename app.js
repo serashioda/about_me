@@ -6,11 +6,11 @@ var userName = prompt('What is your name?');
 
 alert('Hey there, ' + userName + ', welcome! We are going to play a little game. Let\'s see if you can answer some questions about me! Please answer yes/no.');
 
-// MAIN FUNCTION THAT RUNS ALL CODE
-// function game() {
-//   aboutMe();
-//   isMyDogs();
-//   citiesLived();
+MAIN FUNCTION THAT RUNS ALL CODE
+function game() {
+  aboutMe();
+  isMyDogs();
+  citiesLived();
 };
 
 // FIRST GAME WITH YES/NO QUESTIONS
