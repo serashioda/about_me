@@ -1,5 +1,6 @@
 'use strict';
 
+
 var correctAnswer = 0;
 
 var userName = prompt('What is your name?');
