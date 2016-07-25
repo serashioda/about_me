@@ -1,19 +1,36 @@
-* {
-  color: purple;
-  background-color: tan;
-}
-
-h1 {
+p {
   background-color: transparent;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-style: bold;
   font-size: 20pt;
+  color: purple;
 }
 
+div {
+  font-style: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: bold;
+  margin-left: 20px;
+}
+
+#aboutMe{
+  float: center;
+  max-width: 750px;
+  height: 0 auto;
+  padding: 5px;
+  margin: 5px;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+
 body {
-	background-image: url("http://image.shutterstock.com/z/stock-vector--illustration-of-cute-cartoon-dogs-on-white-background-cute-akita-inu-shiba-inu-and-husky-can-be-399470293.jpg");
+  color: 3666666;
+  background-color: grey;
+  background-image: url("background.jpg");
 	background-position: center center;
 	background-size: cover;
+  color: purple;
 }
 
 img {
@@ -24,19 +41,39 @@ img {
     background-position: center center;
 }
 
-#footer {
-	position: relative;
-	height: 100px;
-	background-color: transparent;
-	clear: both;
-	font-size: 15pt;
-	color: #ffffff;
+nav ul {
+  margin-bottom: 10px 10px 10px 50px;
+  padding: 5px;
+  color: blue;
 }
 
-#footer p {
-	position: relative;
-	padding-top: 5px;
-  font-style: bold;
+aside {
+  float: right;
+  width: 250px;
+  height: 200px;
+  padding: 0px;
+  border: 5px solid black;
+  border-radius: 5px;
+  color: #de6581;
+  background-color: tan;
+  margin-bottom: 250px;
+}
+
+#footer {
+	font-size: 75%;
+  font-weight: bolder;
+  padding: 5px;
+  position: relative;
+  width: 90%;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 5px;
+	color: black;
+  background-image: url(worldtravel.jpeg);
+  background-position: center center;
+  background-size: cover;
+  margin-top: 550px;
+  margin-left: 50px;
 }
 
 ol {
